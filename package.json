@@ -1,6 +1,6 @@
 {
   "name": "@wzrdtales/swim-ng",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Gossip protocol based on SWIM",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,13 @@
     "type": "git",
     "url": "https://github.com/mrhooray/swim-js.git"
   },
-  "keywords": ["gossip", "swim", "failure", "detection", "membership"],
+  "keywords": [
+    "gossip",
+    "swim",
+    "failure",
+    "detection",
+    "membership"
+  ],
   "author": "Rui Hu <code@mrhooray.com>",
   "license": "MIT",
   "bugs": {
