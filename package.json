@@ -1,6 +1,6 @@
 {
   "name": "@wzrdtales/swim-ng",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Gossip protocol based on SWIM",
   "main": "index.js",
   "scripts": {
