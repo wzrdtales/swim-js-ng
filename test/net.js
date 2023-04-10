@@ -115,7 +115,7 @@ test('Net can send and receive primitive messages with piggybacked updates', fun
 
                     assert.strictEqual(bytesAvailable, expectedBytesAvailable);
 
-                    header = new Buffer(Net.MessageTypeSize);
+                    header = Buffer.allocUnsafe(Net.MessageTypeSize);
                     Net.WriteMessageType.call(header, MessageType.Update, 0);
 
                     return [Buffer.concat([header, codec.encode(randomUpdateData)])];
